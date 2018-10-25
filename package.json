@@ -1,0 +1,30 @@
+{
+  "name": "matrix-search",
+  "version": "1.0.0",
+  "description": "Checks if a matrix includes a submatrix",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --recursive ./**/*.spec.js"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NVZver/matrixSearch.git"
+  },
+  "author": "Nikita Zverev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NVZver/matrixSearch/issues"
+  },
+  "homepage": "https://github.com/NVZver/matrixSearch#readme"
+}
